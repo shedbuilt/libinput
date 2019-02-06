@@ -1,0 +1,8 @@
+NAME=libinput
+VERSION=1.12.6
+REVISION=1
+LICENSE=MIT
+SRC=https://www.freedesktop.org/software/libinput/libinput-1.12.6.tar.xz
+SRCMD5=8cf10cc0fdfab865b105dd28283fa0fd
+BUILDDEPS=meson ninja systemd cairo glib2 libevdev mtdev
+INSTALLDEPS=systemd cairo glib2 libevdev mtdev
